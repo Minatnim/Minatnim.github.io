@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* index */
+body {
+  font-family: "Poppins", sans-serif;
+}
+span,
+p {
+  font-weight: 300;
+}
+.fa-instagram {
+  color: red;
+}
+.title-box {
+  border: 1px dashed pink;
+  background-color: plum;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-color: lightgrey; */
+  background-blend-mode: multiply;
+}
+
+.title-box > * {
+  color: #0000ff88;
+}
+
+/* contact */
+
+.extend {
+  width: 300px;
+}
+.message {
+  width: 300px;
+  height: 200px;
+}
+.border {
+  border: 1px solid black;
+  width: fit-content;
+  padding: 40px;
+  padding-right: 100px;
+  border-radius: 2%;
+}
+
+/* edu */
+
+td,
+th {
+  border: 1px solid lightgray;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+table {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border-spacing: 0px;
+}
+
+/* work */
+
+table,
+th,
+td {
+  border: 1px solid lightgrey;
+  border-spacing: 0px;
+}
+th {
+  background-color: rgb(223, 243, 250);
+  text-align: left;
+}
+.tablehead {
+  text-align: center;
+}
+.class {
+  width: 80%;
+}

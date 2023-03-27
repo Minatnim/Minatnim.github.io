@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&display=swap"
+    rel="stylesheet"
+  />
+    <title>Contact Me</title>
+
+  </head>
+  <body>
+    <hr />
+    <nav>
+      <a href="./index.html">Home</a> |
+      <a href="./education.html">Education</a> |
+      <a href="./work.html">Work Experience</a> | <a href="#">Contact Me</a> |
+    </nav>
+    <hr />
+
+    <h1>Contact Me</h1>
+    <main class="border"> 
+      <div>
+        <form action="/action_page.php">
+          <legend>Enter your info</info></legend><br>
+          <label for="fname">Your name :</label><br />
+          <input type="text" id="fullname" name="fullname" value="" class="extend"/><br /><br>
+          <label for="email">Your E-mail :</label><br />
+          <input type="text" id="email" name="lname" value="" class="extend"/><br /><br />
+
+          <label for="select">Gender</label> <br> 
+          <select name="Gender" id="select" class="extend"> 
+            <option 
+            disabled 
+            hidden
+            selected
+            value="select">select</option>
+            <option value="select">Male</option>
+            <option value="select">Female</option>
+            <option value="select">LGBTQ++</option>
+          </select><br><br>
+
+          <label for="message">Message :</label><br />
+          <textarea type="" id="message" name="message" value="" class="message"></textarea><br />
+          <div><br>
+            <input type="submit" value="Send" />
+          <input type="reset" value="Clear" />
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
